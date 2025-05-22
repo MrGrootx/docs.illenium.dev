@@ -1,9 +1,13 @@
 site_name: iLLeniumStudios
 site_url: https://mrgrootx.github.io/docs.illenium.dev/
+docs_dir: docs     
+site_dir: site       
+
 theme:
   logo: assets/logo.png
   favicon: assets/favicon.png
   name: material
+
   palette:
   - scheme: default
     media: "(prefers-color-scheme: light)"
