@@ -1,6 +1,6 @@
 site_name: iLLeniumStudios
 site_url: https://mrgrootx.github.io/docs.illenium.dev/
-use_directory_urls: false  # Optional but safer on GitHub Pages
+use_directory_urls: false
 
 theme:
   name: material

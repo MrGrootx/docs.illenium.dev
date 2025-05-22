@@ -1,9 +1,12 @@
-name: Deploy MkDocs to GitHub Pages
+name: Deploy Docs
 
 on:
   push:
     branches:
-      - main  # or "master", depending on your default branch
+      - main
+
+permissions:
+  contents: write
 
 jobs:
   deploy:
@@ -16,11 +19,12 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: 3.11  # or any compatible version
+          python-version: '3.11'
 
       - name: Install dependencies
         run: |
-          pip install mkdocs mkdocs-material
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
       - name: Deploy to GitHub Pages
         run: mkdocs gh-deploy --force

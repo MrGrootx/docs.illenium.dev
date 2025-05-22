@@ -1,5 +1,2 @@
 mkdocs
 mkdocs-material
-mkdocs-awesome-pages-plugin
-mkdocs-video
-pymdown-extensions
