@@ -1,23 +1,22 @@
 site_name: iLLeniumStudios
 site_url: https://mrgrootx.github.io/docs.illenium.dev/
-
 theme:
-  name: material
   logo: assets/logo.png
   favicon: assets/favicon.png
+  name: material
   palette:
-    - scheme: default
-      media: "(prefers-color-scheme: light)"
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-      primary: light blue
-    - scheme: slate
-      media: "(prefers-color-scheme: dark)"
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-      primary: light blue
+  - scheme: default
+    media: "(prefers-color-scheme: light)"
+    toggle:
+      icon: material/brightness-7
+      name: Switch to dark mode
+    primary: light blue
+  - scheme: slate
+    media: "(prefers-color-scheme: dark)"
+    toggle:
+      icon: material/brightness-4
+      name: Switch to light mode
+    primary: light blue
   features:
     - navigation.instant
     - navigation.tracking
@@ -25,21 +24,20 @@ theme:
     - navigation.indexes
     - toc.follow
     - navigation.top
-
 extra:
   homepage: https://mrgrootx.github.io/docs.illenium.dev/
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/iLLeniumStudios
-    - icon: fontawesome/brands/discord
-      link: https://mrgrootx.github.io/docs.illenium.dev/
+    - icon: fontawesome/brands/discord 
+      link: https://discord.illenium.dev
   generator: false
-
 plugins:
   - search
+  - awesome-pages
+  - mkdocs-video
 
 copyright: Copyright &copy; 2023 iLLeniumStudios
-
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -49,3 +47,5 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - tables
+extra_css:
+  - stylesheets/extra.css
