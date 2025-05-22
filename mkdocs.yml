@@ -2,7 +2,7 @@ site_name: iLLeniumStudios
 site_url: https://mrgrootx.github.io/docs.illenium.dev/
 docs_dir: docs     
 site_dir: site       
-
+use_directory_urls: true
 theme:
   logo: assets/logo.png
   favicon: assets/favicon.png
