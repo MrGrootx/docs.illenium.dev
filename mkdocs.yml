@@ -1,4 +1,4 @@
-site_name: iLLeniumStudios
+site_name: iLLeniumStudios By Groot Development
 site_url: https://mrgrootx.github.io/docs.illenium.dev/
 docs_dir: docs     
 site_dir: site       
@@ -34,14 +34,20 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/iLLeniumStudios
     - icon: fontawesome/brands/discord 
-      link: https://discord.illenium.dev
+      link: https://discord.gg/ntkYDphJ87
   generator: false
 plugins:
   - search
   - awesome-pages
   - mkdocs-video
 
-copyright: Copyright &copy; 2023 iLLeniumStudios
+# copyright: Copyright &copy; 2023 iLLeniumStudios
+copyright: |
+  <p style="text-align: center;">
+    Docs for <strong>iLLenium-Studios</strong> by 
+    <a href="https://groot-development.tebex.io/category/2662518" target="_blank"><strong>Groot Development</strong></a> (<em>justgroot</em>)<br>
+    <small>This site was forked from iLLenium-Studios and is not originally created by me.</small>
+  </p>
 markdown_extensions:
   - admonition
   - pymdownx.details
